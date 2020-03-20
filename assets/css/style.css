@@ -1,10 +1,3 @@
-/**
-* Template Name: DevFolio - v2.0.0
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -1606,6 +1599,7 @@ footer .credits a {
 
 .testimonial2 .testi2 .image-thumb img {
   width: 400px;
+  height: 400px;
 }
 
 .testimonial2 .testi2 .owl-dots {
