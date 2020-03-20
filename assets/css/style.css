@@ -1508,6 +1508,7 @@ footer .credits a {
 --------------------------------------------------------------*/
 #clients {
   padding: 60px 0;
+  background-color: #111;
   /* overflow: hidden;
   background: linear-gradient(rgba(65, 101, 191, 0.65), rgba(65, 101, 191, 0.2)), url(../img/img2.jpg) fixed center center;
   background-size: cover; */
@@ -1533,14 +1534,14 @@ footer .credits a {
   height:auto;
   width:100%;
   display: block;
-  /* opacity: 0.5; */
-  /* transition: 0.3s; */
+  opacity: 0.5;
+  transition: 0.3s;
   
 }
-/* #clients img:hover {
+#clients img:hover {
   opacity: 1;
   filter: brightness(100%);
-} */
+}
 
 #clients .owl-nav, #clients .owl-dots {
   margin-top: 5px;
