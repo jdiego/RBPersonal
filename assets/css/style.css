@@ -1035,15 +1035,6 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
- 
-
-
-
-
-
-/*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .footer-paralax {
@@ -1517,21 +1508,39 @@ footer .credits a {
 --------------------------------------------------------------*/
 #clients {
   padding: 60px 0;
+  /* overflow: hidden;
+  background: linear-gradient(rgba(65, 101, 191, 0.65), rgba(65, 101, 191, 0.2)), url(../img/img2.jpg) fixed center center;
+  background-size: cover; */
+}
+#clients .cta-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
 }
 
+#clients .cta-text {
+  color: #fff;
+}
+
+#clients .line-mf {
+  width: 40px;
+  height: 5px;
+  background-color: #fff;
+  margin: 0 auto;
+}
 #clients img {
   padding: 15px 0;
   height:auto;
   width:100%;
   display: block;
-  opacity: 0.5;
-  transition: 0.3s;
-
+  /* opacity: 0.5; */
+  /* transition: 0.3s; */
+  
 }
-#clients img:hover {
+/* #clients img:hover {
   opacity: 1;
   filter: brightness(100%);
-}
+} */
 
 #clients .owl-nav, #clients .owl-dots {
   margin-top: 5px;
@@ -1555,60 +1564,65 @@ footer .credits a {
 }
 
 
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800);
 
-.testimonial2 {
+.testimonial {
   font-family: "Montserrat", sans-serif;
   color: #8d97ad;
   font-weight: 300;
 }
 
-.testimonial2 h1,
-.testimonial2 h2,
-.testimonial2 h3,
-.testimonial2 h4,
-.testimonial2 h5,
-.testimonial2 h6 {
+.testimonial h1,
+.testimonial h2,
+.testimonial h3,
+.testimonial h4,
+.testimonial h5,
+.testimonial h6 {
   color: #3e4555;
 }
 
-.testimonial2 h5 {
+.testimonial h5 {
     line-height: 22px;
     font-size: 18px;
 		font-weight: 400;
 }
 
-.testimonial2 .font-weight-medium {
+.testimonial .font-weight-medium {
   font-weight: 500;
 }
 
-.testimonial2 .bg-light {
+.testimonial .bg-light {
   background-color: #f4f8fa !important;
 }
 
-.testimonial2 .subtitle {
+.testimonial .subtitle {
   color: #8d97ad;
   line-height: 24px;
 }
 
-.testimonial2 .testi2 .image-thumb {
-  background: url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/testimonial/greadint-bg.png) no-repeat top center;
+.testimonial .testi2 .image-thumb {
+  background: url(../img/greadint-bg.png) no-repeat top center;
   text-align: center;
   padding: 10% 0;
 }
 
-.testimonial2 .testi2 .image-thumb img {
+.testimonial .testi2 .image-thumb img {
   width: 400px;
   height: 400px;
 }
 
-.testimonial2 .testi2 .owl-dots {
+.testimonial .testi2 .owl-dots {
   display: inline-block;
   position: relative;
   top: -100px;
 }
 
-.testimonial2 .testi2 .owl-dots .owl-dot {
+.testimonial .testi2 .owl-dots .owl-dot {
   border-radius: 100%;
   width: 70px;
   height: 70px;
@@ -1618,29 +1632,29 @@ footer .credits a {
   cursor: pointer;
 }
 
-.testimonial2 .testi2 .owl-dots .owl-dot span {
+.testimonial .testi2 .owl-dots .owl-dot span {
   display: none;
 }
 
-.testimonial2 .testi2 .owl-dots .owl-dot.active,
-.testimonial2 .testi2 .owl-dots .owl-dot:hover {
+.testimonial .testi2 .owl-dots .owl-dot.active,
+.testimonial .testi2 .owl-dots .owl-dot:hover {
   opacity: 1;
 }
 
 @media (max-width: 767px) {
-  .testimonial2 .testi2 .owl-dots {
+  .testimonial .testi2 .owl-dots {
     top: 0px;
   }
 }
 
-.testimonial2 .btn-md {
+.testimonial .btn-md {
     padding: 18px 0px;
     width: 60px;
     height: 60px;
     font-size: 20px;
 }
 
-.testimonial2 .btn-danger {
+.testimonial .btn-danger {
     background: #0076ff !important;
     border: 1px solid #0076ff !important;
 }
