@@ -1570,7 +1570,7 @@ footer .credits a {
 # Testimonials
 --------------------------------------------------------------*/
 
-@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800);
+/* @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800);
 
 .testimonial {
   font-family: "Montserrat", sans-serif;
@@ -1658,6 +1658,62 @@ footer .credits a {
 .testimonial .btn-danger {
     background: #0076ff !important;
     border: 1px solid #0076ff !important;
+} */
+.testimonials .owl-carousel .owl-item img {
+  width: 200px;
+  height: 200px;
+}
+
+.testimonial-box {
+  color: #fff;
+  text-align: center;
+}
+
+.testimonial-box .author-test {
+  margin-top: 1rem;
+}
+
+.testimonial-box .author-test img {
+  margin: 0 auto;
+}
+
+.testimonial-box .author {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 1rem 0;
+  display: block;
+  font-size: 1.4rem;
+}
+
+.testimonial-box .comit {
+  font-size: 2rem;
+  color: #0078ff;
+  background-color: #fff;
+  width: 52px;
+  height: 52px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  .testimonial-box .description {
+    padding: 0 5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .testimonial-box .description {
+    padding: 0 8rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .testimonial-box .description {
+    padding: 0 13rem;
+  }
 }
 
 
@@ -1777,3 +1833,13 @@ footer .credits a {
   border: 2px solid #0078ff;
 }
 
+/* 
+.instagram_profile {}
+.instagram_profile_image {}
+.instagram_username {}
+.instagram_biography {}
+.instagram_gallery {} 
+*/
+
+
+  

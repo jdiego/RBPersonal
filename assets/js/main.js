@@ -110,10 +110,10 @@
     autoplayTimeout: 4000,
     autoplayHoverPause: true,
     loop:true,
+    margin: 20,
     responsive: {
       0: {items: 1,},
-      68: { items: 2 },
-      1170: { items: 3 }
+      
     }
   });
 
