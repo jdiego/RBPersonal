@@ -754,6 +754,10 @@ a:hover {
   color: #0078ff;
 
 }
+#about .workout-img{
+  width: 100%;
+  height: auto;
+}
 /*--------------------------------------------------------------
 # Video box
 --------------------------------------------------------------*/
@@ -1884,7 +1888,64 @@ footer .credits a {
   padding-bottom: 10px;
 }
 
+/* Frequently Asked Questions Section
+--------------------------------*/
+#faq {
+  padding: 60px 0;
+  overflow: hidden;
+}
 
+#faq #faq-list {
+  padding: 0;
+  list-style: none;
+}
+
+#faq #faq-list li {
+  border-bottom: 1px solid #ddd;
+}
+
+#faq #faq-list a {
+  padding: 18px 0;
+  display: block;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 300;
+  padding-right: 20px;
+}
+
+#faq #faq-list i {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 16px;
+}
+
+#faq #faq-list p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  #faq #faq-list a {
+    font-size: 18px;
+  }
+  #faq #faq-list i {
+    top: 13px;
+  }
+}
+
+#faq #faq-list a.collapse {
+  color: #1dc8cd;
+}
+
+#faq #faq-list a.collapsed {
+  color: #000;
+}
+
+#faq #faq-list a.collapsed i::before {
+  content: "\f2c7" !important;
+}
 
 /* Call To Action Section
 --------------------------------*/
@@ -1939,6 +2000,42 @@ footer .credits a {
 .instagram_biography {}
 .instagram_gallery {} 
 */
+#workout-home .content .h2 {
+  color: #333;
+  font-weight: 300;
+  font-size: 24px;
+}
 
+#workout-home .content h3 {
+  color: #777;
+  /* font-weight: 300;
+  font-size: 18px;
+  line-height: 26px; */
+  font-style: italic;
+}
+
+#workout-home .content p {
+  line-height: 26px;
+}
+
+#workout-home .content p:last-child {
+  margin-bottom: 0;
+}
+
+#workout-home .content i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #0078ff;
+}
+
+#workout-home .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#workout-home .content ul li {
+  
+  font-size: 24px;
+}
 
   
