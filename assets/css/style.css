@@ -754,10 +754,12 @@ a:hover {
   color: #0078ff;
 
 }
-#about .workout-img{
-  width: 100%;
+#about .workout-img {
   height: auto;
+  max-width: 50vw; //50% of user's viewport width
 }
+
+
 /*--------------------------------------------------------------
 # Video box
 --------------------------------------------------------------*/
@@ -953,6 +955,8 @@ a:hover {
 .service-box .s-description {
   color: #4e4e4e;
 }
+
+
 
 /*--------------------------------------------------------------
 # Counter
