@@ -627,11 +627,21 @@ a:hover {
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
+
 .intro {
-  height: 100vh;
+  height: 130vh; 
   position: relative;
   color: #fff;
 }
+@media screen and ( min-width: 400px )
+{
+   .intro {
+      height: 100vh; 
+      position: relative;
+      color: #fff;
+    }
+}
+
 
 .intro .intro-content {
   text-align: center;
@@ -2038,8 +2048,5 @@ footer .credits a {
 }
 
 #workout-home .content ul li {
-  
   font-size: 24px;
 }
-
-  
