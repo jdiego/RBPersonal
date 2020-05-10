@@ -629,11 +629,19 @@ a:hover {
 --------------------------------------------------------------*/
 
 .intro {
-  height: 130vh; 
+  height: 190vh; 
   position: relative;
   color: #fff;
 }
-@media screen and ( min-width: 400px )
+@media screen and ( min-height: 680px )
+{
+   .intro {
+      height: 130vh; 
+      position: relative;
+      color: #fff;
+    }
+}
+@media screen and ( min-height: 900px )
 {
    .intro {
       height: 100vh; 
