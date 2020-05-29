@@ -86,6 +86,14 @@
   // Navigation active state on scroll
   var nav_sections = $('section');
   var main_nav = $('.nav-menu, #mobile-nav');
+   // Preloader
+   $(window).on('load', function() {
+    if ($('#preloader').length) {
+      $('#preloader').delay(100).fadeOut('slow', function() {
+        $(this).remove();
+      });
+    }
+  });
 
   $(window).on('scroll', function() {
     var cur_pos = $(this).scrollTop() + 90;
