@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .line-mf {
-  width: 400px;
+  width: 80%;
   height: 5px;
   background-color: #0078ff;
   margin: 0 auto;
@@ -438,6 +438,11 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url(../img/bg.png);
 }
 
+.hero .video-box {
+  background: url("../img/about-img.png") center center no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
 
 @@media (max-width: 991px) {
   #hero {
@@ -463,6 +468,11 @@ h1, h2, h3, h4, h5, h6 {
   #hero .hero-img img {
     width: 80%;
   }
+  .hero .video-box {
+    background: url("../img/about-img.png") center center no-repeat;
+    background-size: cover;
+    min-height: 300px;
+  }
 }
 
 .hero .container {
@@ -485,11 +495,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.hero .video-box {
-  background: url("../img/about-img.png") center center no-repeat;
-  background-size: cover;
-  min-height: 400px;
-}
+
 
 
 
