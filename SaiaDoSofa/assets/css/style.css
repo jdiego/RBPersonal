@@ -484,8 +484,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero .video-box {
-  background: url("../img/about-img.png") center center no-repeat;
-  background-size: cover;
+  /*background: url("../img/about-img.png") center center no-repeat;
+  background-size: cover;*/
   min-height: 400px;
 }
 
@@ -531,10 +531,10 @@ h1, h2, h3, h4, h5, h6 {
     width: 80%;
   }
   .hero .video-box {
-    background: url("../img/about-img.png") center center no-repeat;
-    background-size: cover;
     min-height: 300px;
-    background-size: 400px;
+    /*background: url("../img/about-img.png") center center no-repeat;
+    background-size: cover;
+    background-size: 400px;*/
   }
 }
 @media (max-width: 576px) {
