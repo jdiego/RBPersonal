@@ -765,10 +765,9 @@ section {
 --------------------------------------------------------------*/
 #about {
   background-image: url(../img/bg.jpg);
-
   min-height: 500px;
   padding: 2.5rem 1.3rem;
-  border-radius: 1rem;
+
   /* margin-bottom: 3rem; */
   color: #fff;
 
@@ -867,7 +866,7 @@ section {
   background-image:  linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url(../img/bg_branco.jpg);
   min-height: 500px;
   padding: 2.5rem 1.3rem;
-  border-radius: 1rem;
+
   color: #fff;
 }
 #work h3 {
@@ -930,11 +929,18 @@ section {
 #faq {
   min-height: 500px;
   padding: 2.5rem 1.3rem;
-  border-radius: 1rem;
-
   background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0) ), url(../img/bg_branco.jpg);
 }
-
+#faq .title-a {
+    color: #fff;
+}
+#faq p {
+    font-weight: bold;
+}
+#faq h2 {
+    font-weight: bold;
+    font-size: 2rem;
+}
 #faq #faq-list {
   padding: 0;
   list-style: none;
@@ -953,6 +959,8 @@ section {
   line-height: 1;
   font-weight: 300;
   padding-right: 20px;
+  color: #fff;
+  font-weight: bold;
 }
 
 #faq #faq-list i {
@@ -976,11 +984,15 @@ section {
 }
 
 #faq #faq-list a.collapse {
-  color: #1dc8cd;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 #faq #faq-list a.collapsed {
-  color: #000;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 #faq #faq-list a.collapsed i::before {
