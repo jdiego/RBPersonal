@@ -120,6 +120,16 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   opacity: .7;
 }
+.overlay-dark {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .7;
+}
+
 .title-a {
   font-size: 3rem;
   font-weight: bold;
@@ -556,12 +566,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
-
-
-
-
-
 .hero .play-btn {
   width: 94px;
   height: 94px;
@@ -759,12 +763,12 @@ section {
 # About
 --------------------------------------------------------------*/
 #about {
-  background-image: url(../img/bg_blue.png);
+  background-image: url(../img/bg.jpg);
 
   min-height: 500px;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
   color: #fff;
 
 }
@@ -824,7 +828,7 @@ section {
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
-
+  
 }
 
 .service-box:hover .ico-circle {
@@ -858,11 +862,20 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+#work{
+  background-image: url(../img/bg.jpg);
+  
+  min-height: 500px;
+  padding: 2.5rem 1.3rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+  color: #fff;
+}
 .work-box {
   margin-bottom: 5rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-color: #fff;
+  
 }
 
 .work-box:hover img {
