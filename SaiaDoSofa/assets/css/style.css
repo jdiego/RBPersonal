@@ -121,13 +121,14 @@ h1, h2, h3, h4, h5, h6 {
   opacity: .7;
 }
 .overlay-dark {
-  position: absolute;
-  top: 0;
-  left: 0px;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  opacity: .7;
+    background-color: #353535;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
 }
 
 .title-a {
@@ -763,7 +764,7 @@ section {
 # About
 --------------------------------------------------------------*/
 #about {
-  background-image: url(../img/bg_azul.jpg);
+  background-image: url(../img/bg.jpg);
 
   min-height: 500px;
   padding: 2.5rem 1.3rem;
@@ -863,13 +864,14 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 #work{
-  background-image: url(../img/bg.jpg);
-
+  background-image:  linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url(../img/bg_branco.jpg);
   min-height: 500px;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
-  margin-bottom: 3rem;
   color: #fff;
+}
+#work h3 {
+    color: white;
 }
 .work-box {
   margin-bottom: 5rem;
@@ -929,7 +931,8 @@ section {
   min-height: 500px;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
-  margin-bottom: 3rem;
+
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0) ), url(../img/bg_branco.jpg);
 }
 
 #faq #faq-list {
