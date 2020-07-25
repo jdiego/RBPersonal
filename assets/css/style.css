@@ -746,6 +746,14 @@ a:hover {
   margin-left: 10px;
 }
 
+.btn-about {
+  background-color: #068df5;
+}
+
+.btn-about:hover {
+  background-color: #ff980c;
+}
+
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
     margin-top: 3rem;
