@@ -12,7 +12,17 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: 'route159-heavy';
+  font-weight: bold;
+  font-style: normal; 
   color: #1e1e1e;
+}
+
+
+a, p {
+  font-family: 'route159-regular';
+  font-weight: normal;
+  font-style: normal; 
 }
 
 a {
@@ -1422,7 +1432,7 @@ footer .credits a {
 --------------------------------*/
 
 #pricing {
-  padding: 80px 0;
+  padding: 80px;
 }
 
 @media (max-width: 991px) {
@@ -1485,9 +1495,17 @@ footer .credits a {
 
 #pricing .card .list-group-item {
   border: 0px;
-  padding: 6px;
+  padding: 6px; 
   color: #413e66;
   font-weight: 300;
+  text-align: left;
+  font-size: medium;
+  
+}
+#pricing .card .list-group-item-check {
+  margin-right: 10px;
+  color: #0078ff;
+  
 }
 
 #pricing .card h3 {
