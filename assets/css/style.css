@@ -153,6 +153,7 @@ a:hover {
   text-transform: uppercase;
 }
 
+
 .subtitle-a {
   color: #4e4e4e;
 }
@@ -1834,7 +1835,7 @@ footer .credits a {
   text-transform: uppercase;
   font-weight: 600;
   margin: 1rem 0;
-  display: block;
+    display: block;
   font-size: 1.4rem;
 }
 

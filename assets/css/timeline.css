@@ -161,7 +161,7 @@ table {
 img,
 video,
 svg {
-    max-width: 100%;
+    max-width: 180%;
 }
 [data-theme] {
     background-color: hsl(0, 0%, 100%);
@@ -3220,15 +3220,15 @@ mark {
     align-items: center;
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    width: 40px;
+    /* width: 400px;
     height: 40px;
     border-radius: 50%;
     box-shadow: 0 0 0 4px hsl(0, 0%, 100%), inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
-    box-shadow: 0 0 0 4px var(--color-white), inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 4px var(--color-white), inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05); */
 }
 .cd-timeline__img img {
-    width: 24px;
-    height: 24px;
+    width: 300px;
+    height: 300px;
 }
 @media (min-width: 64rem) {
     .cd-timeline__img {
