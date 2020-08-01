@@ -110,15 +110,31 @@
     autoplayTimeout: 4000,
     autoplayHoverPause: true,
     loop:true,
-    margin: 20,
+    margin: 100,
     stagePadding: 50,
     responsive: {
-      0: {items: 1,},
+      0: {
+        items: 1,
+        navigation: true,
+        nav: true,
+        slideBy: 1 
+      },
+      600: {
+        items: 3,
+        navigation: true,
+        nav: true,
+        slideBy: 3
+      },
       1000: {
-        items: 1
+        items: 3,
+        navigation: true,
+        nav: true,
+        slideBy: 3
       }
-    }
-  });
+    },
+    scrollPerPage: true,
+    navigation: true
+  }).css("z-index", 0);
 
   /*--/ clients owl /--*/
   $('.clients-carousel').owlCarousel({
