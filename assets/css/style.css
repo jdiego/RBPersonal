@@ -1684,10 +1684,10 @@ footer .credits a {
 #clients img {
   padding: 15px 0;
   height:auto;
-  width:100%;
+  width: 80%;
   display: block;
-  opacity: 0.5;
-  transition: 0.3s;
+  opacity: 1;
+  filter: brightness(100%);
   
 }
 #clients img:hover {
